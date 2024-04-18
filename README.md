@@ -1,4 +1,34 @@
-# vue-slavko
+# lunalust-back
+
+This simple node-express server is made to concatinate two audio messages and return resault.
+
+## Project Setup
+
+### Move to backend end directory
+```sh
+cd test-be
+```
+
+```sh
+npm install
+```
+
+### Dependecies
+This project have ffmpeg dependency that can be installed from here https://ffmpeg.org/.
+
+If you are using macOS this can be installed using homebrew
+
+```sh
+brew install ffmpeg
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run start
+```
+
+# lunalust-front
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -15,6 +45,11 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
+
+### Move to front end directory
+```sh
+cd test-fe
+```
 
 ```sh
 npm install
@@ -37,3 +72,4 @@ npm run build
 ```sh
 npm run lint
 ```
+
