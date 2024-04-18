@@ -36,7 +36,6 @@ const send = async () => {
   const objectURL = URL.createObjectURL(blob);
 	
   data.value = objectURL;
-  console.log(objectURL);
 }
 </script>
 
